@@ -1,0 +1,138 @@
+Create Table ChargesTab 
+(chargeName varchar(50),
+Amt float,
+Rem varchar(50));
+
+Create Table DeptTab 
+(DeptName varchar(50),
+details varchar(50));
+
+
+
+Create Table DesignationTab 
+(DesgName varchar(50),
+details varchar(50),
+exyears float,
+rem1 varchar(50));
+
+
+Create Table EdTab
+(EdName varchar(50),
+details varchar(50),
+years float,
+rem1 varchar(50));
+
+
+
+Create InAdmnTab
+(aDate date,
+pcode varchar(50),
+pName varchar(50),
+Prob varchar(50),
+deptName varchar(50),
+advamt varchar(50),
+phoneNo varchar(50),
+rem1 varchar(50));
+
+
+Create Table InPatientTab 
+(pCode varchar(50),
+pName varchar(50),
+add1 varchar(50),
+add2 varchar(50),
+add3 varchar(50),
+add4 varchar(50),
+pincode varchar(50),
+phoneNo varchar(50),
+email varchar(50),
+dob date,
+gender varchar(50),
+bloodgroup varchar(5),
+outpatientcode varchar(50));
+
+
+Create Table LoginTab 
+(uName varchar(50),
+pWord varchar(50));
+
+insert into logintab values('admin','admin');
+
+
+Create OutConsTab
+(cDate date,
+pcode varchar(50),
+pName varchar(50),
+Prob varchar(50),
+deptName varchar(50),
+charge varchar(50),
+rem1 varchar(50));
+
+Create Table OutPatientTab 
+(pCode varchar(50),
+pName varchar(50),
+add1 varchar(50),
+add2 varchar(50),
+add3 varchar(50),
+add4 varchar(50),
+pincode varchar(50),
+phoneNo varchar(50),
+email varchar(50),
+dob date,
+gender varchar(50),
+bloodgroup varchar(5));
+
+Create Table roomMainTab
+(roomNo varchar(50),
+facility varchar(50),
+rent int,
+beds int);
+
+Create Table roomTypeTab 
+(roomtypeName varchar(50),
+facility varchar(50),
+deptName varchar(50),
+remarks varchar(50));
+
+
+Create Table saDet
+(rNo float,
+slno float,
+itemname varchar(50),
+qty int,
+rate float,
+total float);
+
+Create Table saMain
+(rNo float,
+InvoiceNo float,
+sDate date,
+cName varchar(50),
+total float);
+
+Create Table StaffDetTab 
+(staffName varchar(50),
+exdet varchar(50),
+ed varchar(50),
+desgName varchar(50),
+deptName varchar(50),
+salary float,
+remarks varchar(50));
+
+
+Create Table StaffPerDetTab 
+(staffName varchar(50),
+pName varchar(50),
+add1 varchar(50),
+add2 varchar(50),
+add3 varchar(50),
+add4 varchar(50),
+pincode varchar(50),
+phoneNo varchar(50),
+email varchar(50),
+dob date,
+gender varchar(50));
+
+
+
+
+

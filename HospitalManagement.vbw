@@ -1,0 +1,17 @@
+MDIForm1 = 132, 174, 712, 630, Z, 44, 58, 624, 514, C
+Module1 = 154, 203, 734, 659, C
+Login = 110, 145, 690, 601, C, 88, 116, 668, 572, C
+Report1 = 0, 0, 0, 0, C, 132, 174, 932, 774, C
+frmSplash = 0, 0, 602, 456, C, 154, 203, 756, 659, C
+EmpDetailsForm = 132, 174, 1016, 596, , 110, 145, 994, 567, C
+EmpListForm = 22, 29, 788, 481, , 0, 0, 766, 452, C
+EmpReport = 0, 0, 0, 0, C, 44, 58, 1068, 826, C
+RoomDetForm = 0, 0, 0, 0, C, 132, 174, 815, 626, C
+OutPatientDetailsForm = 0, 0, 0, 0, C, 0, 0, 856, 452, C
+OutPatientConsulationForm = 154, 203, 1010, 655, C, 132, 174, 988, 626, C
+DeptForm = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+OutPatientListForm = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+BillForm = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+BillRepForm = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+InPatientAdmnForm = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+InPatientForm = 0, 0, 0, 0, C, 0, 0, 0, 0, C
